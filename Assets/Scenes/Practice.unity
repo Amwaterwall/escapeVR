@@ -122,7 +122,54 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: dd1645554910d56429b444356030e983, type: 2}
+--- !u!1 &8412832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  m_PrefabInstance: {fileID: 1699476025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8412833 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  m_PrefabInstance: {fileID: 1699476025}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8412835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8412832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b28112ea001c942a5ec01b27a877a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 8412836}
+  animator: {fileID: 8412833}
+  attackRange: 2
+--- !u!195 &8412836
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8412832}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.05
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.17
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &9636971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +180,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -209,6 +260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -288,6 +343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -360,6 +419,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -503,6 +566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -567,6 +634,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_Name
       value: FloorPrototype64x01x64 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_RootOrder
@@ -642,6 +713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -715,6 +790,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd299fedf620074b8e4ce0978a7f425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &63296525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+  m_PrefabInstance: {fileID: 730105178}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &69834095 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2884100000944145120, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
@@ -736,6 +816,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_Name
       value: Castle Wall 13 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
@@ -816,7 +900,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!136 &83564711
 CapsuleCollider:
@@ -908,6 +992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -986,6 +1074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: back
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1063,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -1182,6 +1278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1255,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Tower 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -1327,6 +1431,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_Name
       value: Castle Fence 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_RootOrder
@@ -1405,6 +1513,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_Name
       value: Castle Wall 12 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
@@ -1552,6 +1664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1630,6 +1746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1703,6 +1823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1775,6 +1899,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 72f601b85cb4ebd41a3a3b156186ad29, type: 3}
       propertyPath: m_Name
       value: Castle Gate 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 72f601b85cb4ebd41a3a3b156186ad29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 72f601b85cb4ebd41a3a3b156186ad29, type: 3}
       propertyPath: m_RootOrder
@@ -1908,6 +2036,44 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1032d41f900276c40a9dd24f55b7d420, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+--- !u!4 &149378692 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 52616d91627c5bd4dad2bfad0bbd3c06, type: 3}
+  m_PrefabInstance: {fileID: 900028366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &153631219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153631220}
+  m_Layer: 0
+  m_Name: GunAction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153631220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153631219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1900499994}
+  - {fileID: 186431204}
+  m_Father: {fileID: 943110004}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &166883841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1918,6 +2084,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -1992,9 +2162,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraRigs.TrackedAlias
       objectReference: {fileID: 0}
+    - target: {fileID: 1756652776302202, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2056,6 +2230,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -2136,13 +2314,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186431203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 943110004}
-  m_RootOrder: 4
+  m_Father: {fileID: 153631220}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &186431205
 MonoBehaviour:
@@ -2159,7 +2337,7 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 943110003}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -2176,7 +2354,19 @@ MonoBehaviour:
   sources: []
   Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 943110005}
+        m_TargetAssemblyTypeName: Handgun, Assembly-CSharp
+        m_MethodName: Shoot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   ValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2228,6 +2418,10 @@ PrefabInstance:
     - target: {fileID: 1284935693173180, guid: e0a50393ed2e1ca4e879079dfea9664c, type: 3}
       propertyPath: m_Name
       value: Castle Stairs 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1284935693173180, guid: e0a50393ed2e1ca4e879079dfea9664c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4969242117350824, guid: e0a50393ed2e1ca4e879079dfea9664c, type: 3}
       propertyPath: m_RootOrder
@@ -2302,6 +2496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -2375,6 +2573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2447,6 +2649,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -2586,6 +2792,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -2769,13 +2979,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220687264}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8, y: 0.267, z: 3.24}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.104274, y: 47.26127, z: -120.45617}
   m_LocalScale: {x: 1, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 2025095356}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &234523609
 PrefabInstance:
@@ -2787,6 +2997,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_Name
       value: Castle Wall 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
@@ -2868,7 +3082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1dfa2a5706e90e547bd2f92c3c9b45b5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1dfa2a5706e90e547bd2f92c3c9b45b5, type: 3}
       propertyPath: m_LocalScale.x
@@ -2943,6 +3157,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -3020,7 +3238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &295525400
 Transform:
@@ -3029,17 +3247,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295525399}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.46964, y: 4.681804, z: -15.312287}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 111.94994, y: 32.429447, z: -99.83471}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1266316306}
   - {fileID: 299686104}
   - {fileID: 1395274722}
-  - {fileID: 1483665286}
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 1770986366}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &295703774
 PrefabInstance:
@@ -3051,6 +3268,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 900e53dd850c9cc4281be6fa21bdfea5, type: 3}
       propertyPath: m_Name
       value: StepsPrototype04x02x02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 900e53dd850c9cc4281be6fa21bdfea5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 900e53dd850c9cc4281be6fa21bdfea5, type: 3}
       propertyPath: m_RootOrder
@@ -3130,6 +3351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3203,6 +3428,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -3342,6 +3571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -3414,6 +3647,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_Name
       value: Castle Wall 12 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
@@ -3525,6 +3762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3597,6 +3838,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -3675,6 +3920,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -3829,6 +4078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -3901,6 +4154,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -3978,7 +4235,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &387331422
 Transform:
@@ -3987,16 +4244,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387331421}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.6402655, y: 16.296137, z: -7.3489933}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.1599636, y: 44.04378, z: -91.871414}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 102529342}
   - {fileID: 148377564}
   - {fileID: 1168723128}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1770986366}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &388908351
 PrefabInstance:
@@ -4008,6 +4265,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -4086,6 +4347,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_Name
       value: FloorPrototype64x01x64 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_RootOrder
@@ -4181,7 +4446,7 @@ Transform:
   m_Children:
   - {fileID: 371030113}
   m_Father: {fileID: 943110004}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &395276987
 MonoBehaviour:
@@ -4225,6 +4490,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -4304,6 +4573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4379,7 +4652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455428504947032323, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7455428504947032323, guid: c83d63619306b0845a841dd3cc213a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4433,6 +4706,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -4507,6 +4784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4571,6 +4852,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -4645,6 +4930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -4717,6 +5006,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -4791,6 +5084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -4845,16 +5142,85 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+--- !u!1001 &494622548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2060667177}
+    m_Modifications:
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358802924983479943, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242937829258265038, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: m_Name
+      value: LeftTrigger.ActionPublisher (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5346937568831295670, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: sourceAction
+      value: 
+      objectReference: {fileID: 2054925670}
+    - target: {fileID: 5346937568831295670, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+      propertyPath: sourceInteractor
+      value: 
+      objectReference: {fileID: 2078113965}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
 --- !u!1001 &495297667
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -4874,15 +5240,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.5
+      value: 18.9803
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12
+      value: 39.747643
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.71
+      value: -76.81242
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4894,7 +5260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -4928,6 +5294,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -5007,6 +5377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5085,6 +5459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -5158,6 +5536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -5230,6 +5612,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -5308,6 +5694,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 080bc076ed19adb4091adca05de83d66, type: 3}
       propertyPath: m_Name
       value: FloorPrototype04x01x04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 080bc076ed19adb4091adca05de83d66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 080bc076ed19adb4091adca05de83d66, type: 3}
       propertyPath: m_RootOrder
@@ -5398,6 +5788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -5466,7 +5860,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &623212024
 Transform:
@@ -5475,16 +5869,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623212023}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5742564, y: 37.949768, z: 37.6125}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.0939546, y: 65.69741, z: -46.909924}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1184632781}
   - {fileID: 393575277}
   - {fileID: 40404628}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1770986366}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &630014117
 PrefabInstance:
@@ -5496,6 +5890,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_Name
       value: Castle Wall 12 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
@@ -5570,6 +5968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -5642,15 +6044,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5666,15 +6072,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.39
+      value: -33.9097
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.33
+      value: 40.077644
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.31
+      value: -84.83242
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5686,7 +6092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5741,6 +6147,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -5820,6 +6230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5892,7 +6306,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &713333673
 Transform:
@@ -5901,8 +6315,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713333672}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.913296, y: 47.46725, z: -30.414118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -32.432995, y: 75.2149, z: -114.93654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5932,8 +6346,8 @@ Transform:
   - {fileID: 197525275}
   - {fileID: 500739167}
   - {fileID: 762280070}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1770986366}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &721502239
 PrefabInstance:
@@ -5945,6 +6359,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: Castle Wall 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
@@ -6005,15 +6423,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_Name
       value: FloorPrototype64x01x64 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalScale.x
@@ -6025,15 +6447,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.85
+      value: 53.3303
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.2
+      value: 57.947647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.15
+      value: -88.672424
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6045,7 +6467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.z
@@ -6084,6 +6506,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48249c16b72c2374087cdfe2d18454da, type: 3}
       propertyPath: m_Name
       value: Castle Deco 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 48249c16b72c2374087cdfe2d18454da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48249c16b72c2374087cdfe2d18454da, type: 3}
       propertyPath: m_RootOrder
@@ -6145,6 +6571,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -6299,6 +6729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6371,6 +6805,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -6445,6 +6883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6509,6 +6951,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -6582,6 +7028,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
       propertyPath: m_Name
       value: Castle Tower 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
       propertyPath: m_RootOrder
@@ -6716,19 +7166,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5610098034322166760, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: elements.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5610098034322166760, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: elements.Array.data[0]
       value: 
       objectReference: {fileID: 2098172802}
+    - target: {fileID: 5610098034322166760, guid: 9131837377b4888468fd87ee543a110a, type: 3}
+      propertyPath: elements.Array.data[1]
+      value: 
+      objectReference: {fileID: 1236273855}
     - target: {fileID: 5610098034348027842, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: m_Name
       value: TriggerReceiver
       objectReference: {fileID: 0}
     - target: {fileID: 5610098034348027852, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5610098034348027852, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6769,6 +7223,10 @@ PrefabInstance:
     - target: {fileID: 5610098034348027852, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5610098034348027853, guid: 9131837377b4888468fd87ee543a110a, type: 3}
+      propertyPath: activationState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5610098034348027853, guid: 9131837377b4888468fd87ee543a110a, type: 3}
       propertyPath: targetInteractable
@@ -6990,6 +7448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StepsPrototype04x02x02
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 900e53dd850c9cc4281be6fa21bdfea5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 900e53dd850c9cc4281be6fa21bdfea5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7068,6 +7530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -7136,6 +7602,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -7213,7 +7683,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &835893789
 Transform:
@@ -7222,8 +7692,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835893788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.549507, y: 53.168827, z: -37.42953}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -34.069206, y: 80.91647, z: -121.95195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7236,8 +7706,8 @@ Transform:
   - {fileID: 1243232488}
   - {fileID: 2056178242}
   - {fileID: 1838792990}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1770986366}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &840088232
 PrefabInstance:
@@ -7249,6 +7719,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_Name
       value: Castle Fence 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_RootOrder
@@ -7328,6 +7802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7405,6 +7883,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -7484,6 +7966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7559,7 +8045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1977522402952244861, guid: c69d84a3cadb94e45af0210c52e5728d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1977522402952244861, guid: c69d84a3cadb94e45af0210c52e5728d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7653,6 +8139,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -7787,6 +8277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pitol_00
       objectReference: {fileID: 0}
+    - target: {fileID: 2657312824218762190, guid: 52616d91627c5bd4dad2bfad0bbd3c06, type: 3}
+      propertyPath: m_Name
+      value: barrel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52616d91627c5bd4dad2bfad0bbd3c06, type: 3}
 --- !u!1 &900028367 stripped
@@ -7827,6 +8321,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_Name
       value: Castle Wall 12 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
@@ -7900,6 +8398,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_Name
       value: Castle Wall 13 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
@@ -8043,6 +8545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -8101,6 +8607,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+--- !u!4 &933930267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+  m_PrefabInstance: {fileID: 1839123044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &934578865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8111,6 +8622,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: Castle Wall 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
@@ -8181,6 +8696,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -8253,6 +8772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 943110004}
+  - component: {fileID: 943110005}
   m_Layer: 0
   m_Name: Handgun
   m_TagString: Untagged
@@ -8267,19 +8787,35 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943110003}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7248665, w: 0.6888894}
-  m_LocalPosition: {x: -14.198, y: 47.55, z: -120.435}
+  m_LocalRotation: {x: 0, y: 0, z: 0.5735764, w: 0.8191521}
+  m_LocalPosition: {x: -14.198, y: 48.1688, z: -120.435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1816637432}
-  - {fileID: 800221757}
   - {fileID: 1159006666}
   - {fileID: 395276986}
-  - {fileID: 186431204}
+  - {fileID: 800221757}
+  - {fileID: 153631220}
   m_Father: {fileID: 2025095356}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 70}
+--- !u!114 &943110005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943110003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0325af839fe36ff40a2e700752789837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrel: {fileID: 1679833084}
+  trigger: {fileID: 900028367}
+  defaultRotation: 0
+  maxRotation: 30
 --- !u!1001 &974486544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8290,6 +8826,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: Castle Wall 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
@@ -8362,7 +8902,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1000166540
 Transform:
@@ -8454,6 +8994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -8508,6 +9052,103 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+--- !u!1 &1008462208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008462212}
+  - component: {fileID: 1008462211}
+  - component: {fileID: 1008462210}
+  - component: {fileID: 1008462209}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1008462209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008462208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1008462210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008462208}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1008462211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008462208}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1008462212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008462208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.74, y: 2.21, z: 12.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1010422098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8518,6 +9159,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -8591,6 +9236,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -8670,6 +9319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -8742,6 +9395,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -8867,15 +9524,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: tower
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_LocalScale.y
@@ -8883,15 +9544,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.2
+      value: -38.7197
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 27.747644
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.2400005
+      value: -83.282425
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8942,6 +9603,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: Castle Wall 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
@@ -9007,6 +9672,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
       propertyPath: m_Name
       value: Castle Tower 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
       propertyPath: m_RootOrder
@@ -9081,6 +9750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 12 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -9149,6 +9822,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -9234,6 +9911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -9301,11 +9982,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_RootOrder
@@ -9325,15 +10010,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.4803019
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 27.747644
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.0124907
+      value: -88.53491
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9345,7 +10030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9379,6 +10064,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -9473,7 +10162,7 @@ Transform:
   m_Children:
   - {fileID: 735058431}
   m_Father: {fileID: 943110004}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1159006667
 MonoBehaviour:
@@ -9517,6 +10206,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_Name
       value: sideroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
       propertyPath: m_RootOrder
@@ -9681,6 +10374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -9759,6 +10456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FloorPrototype64x01x64
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9833,6 +10534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -9905,6 +10610,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -9979,6 +10688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10051,6 +10764,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -10125,6 +10842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -10187,6 +10908,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+--- !u!114 &1236273855 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5346937568831295670, guid: 00c7da31f3626144f83b7f1cab8ce29d, type: 3}
+  m_PrefabInstance: {fileID: 494622548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a3102e98f5b3d44a1237730a0f4590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1240855227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
@@ -10202,6 +10934,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_Name
       value: Castle Fence 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 699d27c71c7e4214480217a5abaa54d6, type: 3}
       propertyPath: m_RootOrder
@@ -10279,7 +11015,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2884100002522498368, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2884100002522498368, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10349,6 +11085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -10413,6 +11153,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -10487,6 +11231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10560,6 +11308,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -10645,6 +11397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 13 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -10723,6 +11479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -10796,6 +11556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 16 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 68ec290feaaccb2489b25054f3071578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 68ec290feaaccb2489b25054f3071578, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -10861,6 +11625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 16 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 68ec290feaaccb2489b25054f3071578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 68ec290feaaccb2489b25054f3071578, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10915,6 +11683,38 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68ec290feaaccb2489b25054f3071578, type: 3}
+--- !u!1 &1316580695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316580696}
+  m_Layer: 0
+  m_Name: CastleObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316580696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316580695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 115.65684, y: -1.6292877, z: -2.384983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1483665286}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1321813175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10925,6 +11725,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -11003,6 +11807,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_Name
       value: Castle Wall 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
@@ -11102,6 +11910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11176,6 +11988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11240,6 +12056,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -11306,6 +12126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -11370,6 +12194,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -11448,6 +12276,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -11598,6 +12430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -11662,6 +12498,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -11803,19 +12643,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 295525400}
+    m_TransformParent: {fileID: 1316580696}
     m_Modifications:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
-      value: Castle Sig Sag 4x8 (4)
+      value: 2ndF_Door
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1
+      value: 1.1000003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalScale.y
@@ -11823,15 +12663,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70.369644
+      value: -76.55684
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.72
+      value: 14.031092
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.758
+      value: -4.1693
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11872,6 +12712,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
   m_PrefabInstance: {fileID: 1483665285}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1493015631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5610098035023521569, guid: 9131837377b4888468fd87ee543a110a, type: 3}
+  m_PrefabInstance: {fileID: 800221756}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f782494a9252d49a470301a5b749ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1494358788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11882,6 +12733,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -11947,6 +12802,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -12021,6 +12880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 12 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -12086,6 +12949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -12150,6 +13017,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_Name
       value: Castle Wall 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
@@ -12325,6 +13196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Tower 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12397,6 +13272,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -12471,6 +13350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c6fa466807694b34cb7cd91c979425b1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12535,6 +13418,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -12609,6 +13496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -12673,6 +13564,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -12747,6 +13642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -12811,6 +13710,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -12885,6 +13788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -12957,6 +13864,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -13031,6 +13942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 13
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da8aacb4e27c8a8479198ea887cc77d6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -13104,6 +14019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Deco 5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13171,6 +14090,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
   m_PrefabInstance: {fileID: 1674120207}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679833084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679833085}
+  m_Layer: 0
+  m_Name: ShotOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1679833085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679833084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.001, y: 0.046, z: 0.142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 149378692}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682421820
 GameObject:
   m_ObjectHideFlags: 0
@@ -13201,7 +14151,7 @@ Transform:
   m_Children:
   - {fileID: 1718626927}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1685237370
 PrefabInstance:
@@ -13213,6 +14163,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -13287,6 +14241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Tower 3
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54d1dec17f073a342bf898f112d60d52, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13360,6 +14318,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd299fedf620074b8e4ce0978a7f425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1699476025
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Name
+      value: Skeleton@Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.842766
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.17371954
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.98479515
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 200.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0bdb31552d89bea4dbb254ba54ae9ae7, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
 --- !u!1001 &1705775700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13370,6 +14401,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -13448,6 +14483,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -13621,6 +14660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -13736,7 +14779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.81108904
       objectReference: {fileID: 0}
     - target: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13748,7 +14791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.5849227
       objectReference: {fileID: 0}
     - target: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13760,7 +14803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8090891674275893548, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -71.595
       objectReference: {fileID: 0}
     - target: {fileID: 8862883227734677280, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
       propertyPath: m_IsKinematic
@@ -13868,6 +14911,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c0cb8bdc24787439e43b7f145ac31c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1770986365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770986366}
+  m_Layer: 0
+  m_Name: Castle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1770986366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770986365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.4803019, y: -27.747644, z: 84.52242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1785894136}
+  - {fileID: 1767436358}
+  - {fileID: 1044501522}
+  - {fileID: 1804868114}
+  - {fileID: 63296525}
+  - {fileID: 933930267}
+  - {fileID: 623212024}
+  - {fileID: 713333673}
+  - {fileID: 835893789}
+  - {fileID: 387331422}
+  - {fileID: 295525400}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1775830716 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2257711411541539205, guid: e31ddf5ca7950534fb66684149b566b0, type: 3}
@@ -13889,6 +14974,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -13991,6 +15080,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &1785894136 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 16fb769c0394c36469ed40a4f35c1eec, type: 3}
+  m_PrefabInstance: {fileID: 1093619116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1798393395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14001,6 +15095,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_Name
       value: Castle Deco 13 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b0db955f9425cfe4f9a386ad25fbc0c0, type: 3}
       propertyPath: m_RootOrder
@@ -14135,6 +15233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -14207,15 +15309,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1770986366}
     m_Modifications:
     - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_Name
       value: FloorPrototype64x01x64 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalScale.x
@@ -14227,15 +15333,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.53
+      value: -31.049698
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.2
+      value: 57.947647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.11
+      value: -99.63242
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14247,7 +15353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
       propertyPath: m_LocalRotation.z
@@ -14281,6 +15387,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -14424,6 +15534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -14496,6 +15610,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
       propertyPath: m_Name
       value: Castle Tower 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea923436341f1444c9204d41dd1d75b3, type: 3}
       propertyPath: m_RootOrder
@@ -14627,6 +15745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -14689,6 +15811,96 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+--- !u!1 &1900499993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900499994}
+  - component: {fileID: 1900499995}
+  m_Layer: 0
+  m_Name: TriggerSqueezeValue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900499994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900499993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153631220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1900499995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900499993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f782494a9252d49a470301a5b749ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivationStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  initialValue: 0
+  defaultValue: 0
+  sources:
+  - {fileID: 1493015631}
+  Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  ValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 186431206}
+        m_TargetAssemblyTypeName: Zinnia.Data.Type.Transformation.Transformer`3[[System.Single,
+          mscorlib
+        m_MethodName: DoTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 943110005}
+        m_TargetAssemblyTypeName: Handgun, Assembly-CSharp
+        m_MethodName: RotateTrigger
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ValueUnchanged:
+    m_PersistentCalls:
+      m_Calls: []
+  Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  value: 0
+  equalityTolerance: 1e-45
 --- !u!1001 &1925157526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14699,6 +15911,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f8a4564e423ad3a43801208341d66264, type: 3}
       propertyPath: m_Name
       value: Castle Deco 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f8a4564e423ad3a43801208341d66264, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f8a4564e423ad3a43801208341d66264, type: 3}
       propertyPath: m_RootOrder
@@ -14773,6 +15989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Fence 4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -14838,6 +16058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 6
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 369177cf2d01bae41abb92d3744c49e1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 369177cf2d01bae41abb92d3744c49e1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14898,6 +16122,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -14971,6 +16199,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_Name
       value: Castle Deco 5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea23628bf44d217428f1874689894e2f, type: 3}
       propertyPath: m_RootOrder
@@ -15050,6 +16282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iron Bars 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 564b920910a5bc7498da75d6eafde26c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 564b920910a5bc7498da75d6eafde26c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -15118,6 +16354,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -15209,6 +16449,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 220687270}
   - {fileID: 943110004}
   - {fileID: 1240855227}
   m_Father: {fileID: 0}
@@ -15224,6 +16465,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
@@ -15378,6 +16623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -15440,6 +16689,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9e56f6c85eb7f0e46966b2316b2c0067, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+--- !u!114 &2054925670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2884100002345227106, guid: fe6a616c6215faa47b11c459561a0e7f, type: 3}
+  m_PrefabInstance: {fileID: 1257531627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f782494a9252d49a470301a5b749ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2056178241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15450,6 +16710,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -15528,6 +16792,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_Name
       value: Castle Fence 4 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c265b36da8ebfc447b50d0946d92134d, type: 3}
       propertyPath: m_RootOrder
@@ -15618,6 +16886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -15685,6 +16957,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5406743248307111831, guid: 1bb7642ebf8d0a34aa23fc586ea87e6a, type: 3}
   m_PrefabInstance: {fileID: 1744700250}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2078113965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5839046843648530548, guid: f8e0d2a59209d854b91b04b5db7df9ca, type: 3}
+  m_PrefabInstance: {fileID: 807041813}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa8f36bc7d05684daf439b863eeb4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2098172801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15772,6 +17055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Castle Wall 12
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 486646c1b5f48de46b4f7d21de170d0e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -15855,6 +17142,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_Name
       value: Castle Sig Sag 4x8 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: efb0f2df77b580d45811c1242397de4f, type: 3}
       propertyPath: m_RootOrder
