@@ -9,6 +9,17 @@ public class Enemy : MonoBehaviour
 
     private GameObject target;
 
+    public void Kill()
+    {
+        animator.SetBool("Dying", true);
+        Invoke("DestoryMe", 4f);
+    }
+
+    private void DestoryMe()
+    {
+        Object.Destroy(gameObject);
+    }
+
     private void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");

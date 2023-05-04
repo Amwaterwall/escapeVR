@@ -21,9 +21,13 @@ public class Handgun : MonoBehaviour
         if(Physics.Raycast(barrel.transform.position, 
         barrel.transform.forward, out RaycastHit hitData, 100f))
         {
-            if(hitData.transform.tag == "Enemy")
+            Enemy hitEnemy = hitData.transform.GetComponent<Enemy>();
+            
+            //if(hitData.transform.tag == "Enemy")
+            if(hitEnemy != null)
             {
-                Destroy(hitData.transform.gameObject);
+                // Destroy(hitData.transform.gameObject);
+                hitEnemy.Kill();
             }
         }
     }
