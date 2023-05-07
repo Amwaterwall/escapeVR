@@ -28,7 +28,7 @@ public class Handgun : MonoBehaviour
         muzzleFlash.transform.SetParent(null);
         Destroy(muzzleFlash, 0.5f);
         if(Physics.Raycast(barrel.transform.position, 
-        barrel.transform.forward, out RaycastHit hitData, 100f))
+        barrel.transform.forward, out RaycastHit hitData, 200f))
         {
             GameObject hitEffect = Instantiate(hitParticle);
             hitEffect.transform.position = hitData.point;

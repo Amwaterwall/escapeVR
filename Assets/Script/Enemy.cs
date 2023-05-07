@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Animator animator;
-    public float attackRange = 2f;
+    public float attackRange = 1.5f;
     public AudioSource soundPlayer;
     public AudioClip deathSound;
     public AudioClip attackSound;
