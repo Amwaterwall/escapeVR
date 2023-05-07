@@ -5,24 +5,48 @@ public class Enemy : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Animator animator;
-    public float attackRange = 1.8f;
+    public float attackRange = 2f;
+    public AudioSource soundPlayer;
+    public AudioClip deathSound;
+    public AudioClip attackSound;
+    public AudioClip[] breathSounds;
+    public GameObject hitParticles;
 
-    private GameObject target;
+    private Player target;
 
     public void Kill()
     {
+        GetComponent<Collider>().enabled = false;
+        target.UpdateScore(1);
         animator.SetBool("Dying", true);
-        Invoke("DestoryMe", 4f);
+        soundPlayer.PlayOneShot(deathSound);
+        hitParticles.SetActive(true);
+        Destroy(gameObject, 4f);
+
     }
 
-    private void DestoryMe()
+    public void breath()
     {
-        Object.Destroy(gameObject);
+        int soundIndex = Random.Range(0, breathSounds.Length * 3);
+        if (soundIndex < breathSounds.Length)
+        {
+            soundPlayer.PlayOneShot(breathSounds[soundIndex]);
+        }
+    }
+
+    public void Attack()
+    {
+        soundPlayer.PlayOneShot(attackSound);
+    }
+
+    public void Hit()
+    {
+        target.TakeDamge(10f);
     }
 
     private void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         agent.updatePosition = false;
     }
 
