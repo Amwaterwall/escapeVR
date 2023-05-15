@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Animator animator;
-    public float attackRange = 1.5f;
+    public float attackRange = 1.3f;
     public AudioSource soundPlayer;
     public AudioClip deathSound;
     public AudioClip attackSound;
@@ -19,9 +19,10 @@ public class Enemy : MonoBehaviour
         GetComponent<Collider>().enabled = false;
         target.UpdateScore(1);
         animator.SetBool("Dying", true);
+        Destroy(gameObject, 4f);
         soundPlayer.PlayOneShot(deathSound);
         hitParticles.SetActive(true);
-        Destroy(gameObject, 4f);
+        
 
     }
 
@@ -42,6 +43,7 @@ public class Enemy : MonoBehaviour
     public void Hit()
     {
         target.TakeDamge(10f);
+        //soundPlayer.PlayOneShot(attackSound);
     }
 
     private void Start()
