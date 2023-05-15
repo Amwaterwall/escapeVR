@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 2c086fb7a74548e4a93006c6a7af4d75
+  - enabled: 1
+    path: Assets/Scenes/Game_over.unity
+    guid: 448f1811870d8df4ea72a065456b3515
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dbd71f4b9f78bd644aa297f8f83b4153, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ae5c99859ab6c0847a4b07f628974798, type: 2}

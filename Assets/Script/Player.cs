@@ -4,7 +4,7 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
-    public float defaultHealth = 100f;
+    public float defaultHealth = 200f;
     public CameraColorOverlay hitFader;
     public CameraColorOverlay startFader;
     public int score;
